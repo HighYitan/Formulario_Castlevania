@@ -4,7 +4,7 @@ var respuestasSelect=[];
 var respuestasMultiple=[];
 var respuestaRadio=[];
 var nota=0;
-var url="https://rawgit.com/Xavier192/Formulario/master/xml.xml";
+var url="https://rawgit.com/HighYitan/Formulario_Examen/master/xml/questions.xml";
 
 window.onload=function(){
 	formElement=document.getElementById("myForm");
