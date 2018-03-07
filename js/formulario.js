@@ -341,5 +341,5 @@ function inicializar(){
 }
 function aparicionDivCorreccion(){
 	document.getElementById("divCorreccion").style.display="block";
-	document.getElementById("fondo").style.height="780%";
+	document.getElementById("fondo").style.height="2000%";
 }

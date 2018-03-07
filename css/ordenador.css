@@ -22,13 +22,15 @@
 		-webkit-text-stroke-color: #000;
 	}
 	[id*="checkBox1"]#checkBox1, [id*="checkBox2"]#checkBox2, [id*="radioButton1"]#radioButton1, [id*="radioButton2"]#radioButton2 {
-		text-align:center;
-		padding-right:10%;
+		margin-right:0vw;
+		text-align:left;
+		-moz-transform:scale(0.8);
+		-webkit-transform:scale(0.8);
 	}
 	[id*="fondo-ins"]#fondo-ins{
 		position:absolute;
 		width:100%;
-		height:590%;
+		height:1000%;
 		background:-moz-linear-gradient(top,#710000,red 90%);
 		background:-webkit-linear-gradient(top,#710000,red 90%);
 		z-index:0;
@@ -38,7 +40,7 @@
 	[id*="instruccion"]#instruccion{
 		border:ridge 3px black;
 		position:absolute;
-		height:550%;
+		height:900%;
 		top:25%;
 		left:5%;
 		width:90%;
@@ -114,7 +116,7 @@ header{
 section{
 	border:ridge 3px black;
 	position:absolute;
-	height:540%;
+	height:900%;
 	top:25%;
 	left:5%;
 	width:90%;
@@ -126,7 +128,7 @@ section{
 #fondo{
 	position:absolute;
 	width:100%;
-	height:580%;
+	height:1000%;
 	background:-moz-linear-gradient(top,#710000,red 90%);
 	background:-webkit-linear-gradient(top,#710000,red 90%);
 	z-index:0;
@@ -136,17 +138,17 @@ section{
 #fondo-ins{
 	position:absolute;
 	width:100%;
-	height:480%;
+	height:1000%;
 	background:-moz-linear-gradient(top,#710000,red 90%);
 	background:-webkit-linear-gradient(top,#710000,red 90%);
 	z-index:0;
-	left:-2.16%;
+	left:-2.80%;
 	padding-right:0.1%;
 }
 #instruccion{
 	border:ridge 3px black;
 	position:absolute;
-	height:450%;
+	height:900%;
 	top:25%;
 	left:5%;
 	width:90%;
@@ -187,7 +189,7 @@ input[type=text] {
 input[type=checkbox],input[type=radio]{
 	-moz-transform:scale(3.0);
 	-webkit-transform:scale(3.0);
-	margin-left:30%;
+	margin-left:3vw;
 	text-align:center;
 	margin-right:3vw;
 }
@@ -258,7 +260,7 @@ body{
 #divCorreccion{
 	position:absolute;
 	width:100%;
-	height:35%;
+	height:100%;
 	left:-2.30%;
 	top:101%;
 	text-align:center;
