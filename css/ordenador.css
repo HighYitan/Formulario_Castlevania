@@ -19,8 +19,28 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+#header { 
+	position:absolute;
+	height:200px;
+	width:100%;
+	color:#1301B7;
+	background:-moz-linear-gradient(top,#1B7AE8,#13F3EF);
+	background:-webkit-linear-gradient(top,#1B7AE8,#13F3EF);
+	z-index:1;
+    
+}
 #body{
 	display:block;
+	border:ridge 3px black;
+	position:absolute;
+	height:3400px;
+	top:290px;
+	left:5%;
+	width:90%;
+	z-index:2;
+	background:-moz-radial-gradient(ellipse,white,#ACF6C7);
+	background:-webkit-radial-gradient(ellipse,white,#ACF6C7);
+	text-shadow:#658FEF 3px 3px 6px;
 }
 li{
 float: left;
