@@ -2,6 +2,7 @@ var formElement=null;
 var respuestasTexto=[];
 var respuestasSelect=[];
 var respuestasMultiple=[];
+var respuestasCheckbox=[];
 var respuestaRadio=[];
 var nota=0;
 var url="https://rawgit.com/HighYitan/Formulario_Castlevania/master/xml/questions.xml";
@@ -14,8 +15,10 @@ window.onload=function(){
 	    corregirText();
 	    corregirSelect();
 	    corregirSelectMultiple();
-	    aparicionDivCorreccion();
+	    /*corregirCheckBox();*/
 	    corregirRadioButton();
+	    ponerNota();
+	    aparicionDivCorreccion();
     }
     return false;
 }
@@ -303,6 +306,44 @@ function corregirSelectMultiple(){
 		}
   	}
 }
+function corregirCheckBox(){
+	escribirDivCorreccion("Solución checkbox (preguntas 7 y 8)");
+	var f=formElement;
+	var escorrecta=[];
+	for(var numPreg=6 ; numPreg<8 ; numPreg++){
+		var nombre;
+		var mal=false;
+		if(numPreg==6){
+			nombre=f.seis;
+		}
+		else{
+			nombre=f.siete;
+		}
+		for(var i=0 ; i<nombre.length ; i++){
+			if(nombre[i].checked){
+				escorrecta[i]=false;
+				for(var j=0 ; j<respuestasCheckbox[numPreg].length ; j++){
+					if(i==respuestasCheckbox[numPreg][j]) escorrecta[i]=true;
+				}
+				if(escorrecta[i]){
+					nota+=1.0/respuestasCheckbox[numPreg].length;
+					escribirDivCorreccion("Pregunta "+(numPreg+1)+": opción "+(i+1)+" correcta");
+				}
+				else{
+					nota-=1.0/respuestasCheckbox[numPreg].length;
+					escribirDivCorreccion(" Pregunta "+(numPreg+1)+": opción "+(i+1)+" incorrecta");
+					mal=true;
+				}
+			}
+		}
+		if(numPreg==6 && mal==true){
+			escribirDivCorreccion("Respuestas correctas a la pregunta "+(numPreg+1)+": a,b,c ")
+		}
+		else if(numPreg==7 && mal==true){
+			escribirDivCorreccion("Respuestas correctas a la pregunta "+(numPreg+1)+": c,d,e ");
+		}
+	}	
+}
 function corregirRadioButton(){
 	escribirDivCorreccion("Resultados preguntas radioButton (preguntas 9 y 10)");
 	var f=formElement;
@@ -328,6 +369,12 @@ function corregirRadioButton(){
 			}
 		}
 	}
+}
+function ponerNota(){
+	var p=document.createElement("p");
+	var node=document.createTextNode("Nota final: "+nota);
+	p.appendChild(node);
+	document.getElementById("divCorreccion").appendChild(p);
 }
 function escribirDivCorreccion(res){
 	var p=document.createElement("p");

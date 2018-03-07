@@ -127,17 +127,17 @@ section{
 }
 #fondo{
 	position:absolute;
-	width:100%;
+	width:100.1%;
 	height:1000%;
 	background:-moz-linear-gradient(top,#710000,red 90%);
 	background:-webkit-linear-gradient(top,#710000,red 90%);
 	z-index:0;
-	left:-2.16%;
+	left:-2.10%;
 	padding-right:0.1%;
 }
 #fondo-ins{
 	position:absolute;
-	width:100%;
+	width:100.8%;
 	height:1000%;
 	background:-moz-linear-gradient(top,#710000,red 90%);
 	background:-webkit-linear-gradient(top,#710000,red 90%);
