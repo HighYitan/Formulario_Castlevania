@@ -1,0 +1,114 @@
+{
+  "questions": {
+    "question": [
+      {
+        "type": "text",
+        "title": "¿Quién es el protagonista del primer Castlevania?",
+        "answer": "Simon Belmont"
+      },
+      {
+        "type": "text",
+        "title": "¿Quién es el protagonista de Castlevania: Dawn of Sorrow?",
+        "answer": "Soma Cruz"
+      },
+      {
+        "type": "select",
+        "title": "¿Cual suele ser el jefe final de los juegos de Castlevania?",
+        "option": [
+          "La muerte",
+          "Satán",
+          "Drácula",
+          "Frankenstein"
+        ],
+        "answer": "2"
+      },
+      {
+        "type": "select",
+        "title": "¿Quién es el hijo de Drácula? El señor de los vampiros",
+        "option": [
+          "Drácula Junior",
+          "Medusa",
+          "Frankenstein",
+          "Alucard"
+        ],
+        "answer": "3"
+      },
+      {
+        "type": "multiple",
+        "title": "¿Cual o cuales son los mayores aliados de Drácula?",
+        "option": [
+          "La muerte",
+          "Alucard",
+          "Frankenstein",
+          "Murciélagos"
+        ],
+        "answer": [
+          "0",
+          "3"
+        ]
+      },
+      {
+        "type": "multiple",
+        "title": "¿Qué monstruos están al servicio de Drácula?",
+        "option": [
+          "Momias",
+          "Zombies",
+          "Ser del vacío",
+          "Frankenstein"
+        ],
+        "answer": [
+          "0",
+          "1",
+          "3"
+        ]
+      },
+      {
+        "type": "checkbox",
+        "title": "¿Quienes de estos son protagonistas de juegos de la saga Castlevania?",
+        "option": [
+          "Genji Arikado",
+          "Jack Frost",
+          "Alucard",
+          "Hammer"
+        ],
+        "answer": "2"
+      },
+      {
+        "type": "checkbox",
+        "title": "¿Quienes de estos son personajes secundarios de la saga Castlevania?",
+        "option": [
+          "Julius Belmont",
+          "Hammer",
+          "Jack Frost",
+          "Soma Cruz"
+        ],
+        "answer": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "type": "radio",
+        "title": "¿Cual es el juego de la saga Castlevania que más gusta entre los fans?",
+        "option": [
+          "Castlevania: Dawn of Sorrow",
+          "Castlevania: Rondo of blood",
+          "Castlevania: Symphony of the Night",
+          "Castlevania"
+        ],
+        "answer": "2"
+      },
+      {
+        "type": "radio",
+        "title": "¿Dónde suelen transcurrir los juegos de la saga Castlevania?",
+        "option": [
+          "Cementerios",
+          "El castillo de Drácula",
+          "Mansión",
+          "Bosques encantados"
+        ],
+        "answer": "1"
+      }
+    ]
+  }
+}

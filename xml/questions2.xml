@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="questions.xsd">
+	<question>
+		<type>text</type>
+		<title>¿Quién es el protagonista del primer Castlevania?</title>
+		<answer>Simon Belmont</answer>
+	</question>
+	<question>
+		<type>text</type>
+		<title>¿Quién es el protagonista de Castlevania: Dawn of Sorrow?</title>
+		<answer>Soma Cruz</answer>
+	</question>
+	<question>
+		<type>select</type>
+		<title>¿Cual suele ser el jefe final de los juegos de Castlevania?</title>
+		<option>La muerte</option>
+		<option>Satán</option> 
+		<option>Drácula</option>
+		<option>Frankenstein</option>
+		<answer>2</answer>
+	</question>
+	<question>
+		<type>select</type>
+		<title>¿Quién es el hijo de Drácula? El señor de los vampiros</title>
+		<option>Drácula Junior</option>
+		<option>Medusa</option> 
+		<option>Frankenstein</option>
+		<option>Alucard</option>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>multiple</type>
+		<title>¿Cual o cuales son los mayores aliados de Drácula?</title>
+		<option>La muerte</option>
+		<option>Alucard</option> 
+		<option>Frankenstein</option> 
+		<option>Murciélagos</option>
+		<answer>0</answer>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>multiple</type>
+		<title>¿Qué monstruos están al servicio de Drácula?</title>
+		<option>Momias</option>
+		<option>Zombies</option> 
+		<option>Ser del vacío</option> 
+		<option>Frankenstein</option>
+		<answer>0</answer>
+		<answer>1</answer>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>checkbox</type>
+		<title>¿Quienes de estos son protagonistas de juegos de la saga Castlevania?</title>
+		<option>Genji Arikado</option>
+		<option>Jack Frost</option> 
+		<option>Alucard</option> 
+		<option>Hammer</option>
+		<answer>2</answer>
+	</question>
+	<question>
+		<type>checkbox</type>
+		<title>¿Quienes de estos son personajes secundarios de la saga Castlevania?</title>
+		<option>Julius Belmont</option>
+		<option>Hammer</option> 
+		<option>Jack Frost</option> 
+		<option>Soma Cruz</option>
+		<answer>0</answer>
+		<answer>1</answer>
+	</question>
+	<question>
+		<type>radio</type>
+		<title>¿Cual es el juego de la saga Castlevania que más gusta entre los fans?</title>
+		<option>Castlevania: Dawn of Sorrow</option>
+		<option>Castlevania: Rondo of blood</option> 
+		<option>Castlevania: Symphony of the Night</option>
+		<option>Castlevania</option>
+		<answer>2</answer>
+	</question>
+	<question>
+		<type>radio</type>
+		<title>¿Dónde suelen transcurrir los juegos de la saga Castlevania?</title>
+		<option>Cementerios</option>
+		<option>El castillo de Drácula</option> 
+		<option>Mansión</option>
+		<option>Bosques encantados</option>
+		<answer>1</answer>
+	</question>
+</questions>
