@@ -12,6 +12,8 @@ El proyecto consta de 10 preguntas que se gestionan automáticamente por medio d
 
 ## He validado tanto los archivos HTML como los CSS del proyecto con W3CValidator: [Validador de W3C](https://validator.w3.org/)
 
+## También he validado el archivo XML con DTD Y XSD: [Validador de XML](https://www.xmlvalidation.com/)
+
 # Funciones principales
 
 Este proyecto es sobre un foro de Castlevania en el que decidimos entrar y que vemos que tiene un cuestionario muy interesante para probar tus conocimientos acerca de la saga de juegos; Castlevania. Una muy respetada franquicia con decenas de juegos y muy antigua, sobreviviendo hasta nuestros tiempos.
