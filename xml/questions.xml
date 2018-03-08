@@ -54,9 +54,10 @@
 		<type>checkbox</type>
 		<title>¿Quienes de estos son protagonistas de juegos de la saga Castlevania?</title>
 		<option>Genji Arikado</option>
-		<option>Jack Frost</option> 
+		<option>Trevor Belmont</option> 
 		<option>Alucard</option> 
 		<option>Hammer</option>
+		<answer>1</answer>
 		<answer>2</answer>
 	</question>
 	<question>

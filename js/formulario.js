@@ -5,7 +5,7 @@ var respuestasMultiple=[];
 var respuestasCheckbox=[];
 var respuestaRadio=[];
 var nota=0;
-var url="https://rawgit.com/HighYitan/Formulario_Castlevania/master/xml/questions.xml";
+var url="https://rawgit.com/HighYitan/Formulario_Castlevania/master/xml/prueba.xml";
 
 window.onload=function(){
 	formElement=document.getElementById("myForm");
